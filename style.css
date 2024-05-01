@@ -1,0 +1,212 @@
+ *{
+    margin: 0;
+    padding: 0;
+} 
+
+body{
+  background-color: dimgray;
+}
+
+header{
+  margin-top: 2%;
+  background-color: blue;
+	padding: 25px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  color: white;
+}
+
+.HDD{
+  background-color: blue;
+  display: flex;
+	justify-content: space-around;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+}
+
+.horas{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border-radius: 40px;
+  padding: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.horas h3{
+  color: white;
+}
+
+.horas div{
+  background-color: blue;
+  border-radius: 40px;
+  padding: 8px;
+  color: white;
+}
+
+.data{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  border-radius: 40px;
+  padding: 8px;
+}
+
+.data div{
+  background-color: blue;
+  border-radius: 40px;
+  padding: 8px;
+  color: white;
+  border-radius: 50px;
+}
+
+.data h3{
+  color: white;
+  padding: 2px;
+}
+
+.diasemana{
+  background-color: black;
+  border-radius: 40px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.diasemana div{
+  background-color: blue;
+  border-radius: 40px;
+  padding: 8px;
+  color: white;
+  border-radius: 50px;
+}
+
+.titulo{
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  margin-top: 25px;
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+}
+
+.titulo a h3{
+  color: white;
+}
+
+#abrirFormulario{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn div{
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 55px;
+  padding: 15px;
+  gap: 10px;
+}
+
+.btn div h2{
+  background-color: white;
+  color: black;
+  border-radius: 55px;
+  padding: 5px;
+}
+
+.btn div h3{  
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  border-radius: 55px;
+  padding: 5px;
+}
+
+.btn div p{
+  margin-top: 5px;
+}
+
+button{
+  border-radius: 100px;
+  border: solid black 1px;
+  padding: 25px;
+  cursor: pointer;
+}
+
+.tabelas{
+  margin-top: 35px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.tabelas2{
+  margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.tabela1{
+	background-color: blue;
+	padding: 20px;
+	border-radius: 5%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}	
+
+.indicadores{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.indicadores div{
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  padding-top: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+	margin-top: 5px;
+  margin-right: 10px;  
+}
+
+.valores div{
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+	background-color: white;
+	color: black;
+	border-radius: 30px;
+  padding-top: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+	margin-top: 5px;
+}

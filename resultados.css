@@ -1,0 +1,183 @@
+body{
+    background-color: black;
+  }
+  
+  header{
+    margin-top: 2%;
+    background-color: blue;
+      padding: 25px;
+    border-radius: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    color: white;
+  }
+
+  .HDD{
+    background-color: blue;
+    display: flex;
+      justify-content: space-around;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    border-radius: 55px;
+  }
+  
+  .horas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: black;
+    border-radius: 40px;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .horas h3{
+    color: white;
+  }
+  
+  .horas div{
+    background-color: blue;
+    border-radius: 40px;
+    padding: 8px;
+    color: white;
+  }
+  
+  .data{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    padding: 8px;
+  }
+  
+  .data div{
+    background-color: blue;
+    border-radius: 40px;
+    padding: 8px;
+    color: white;
+    border-radius: 50px;
+  }
+  
+  .data h3{
+    color: white;
+    padding: 2px;
+  }
+  
+  .diasemana{
+    background-color: black;
+    border-radius: 40px;
+    padding: 8px;
+  }
+  
+  .diasemana h3{
+    background-color: blue;
+    border-radius: 40px;
+    padding: 8px;
+    color: white;
+    border-radius: 50px;
+  }
+
+.links{
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 55px;
+  color: white;
+  margin-top: 25px;
+}
+
+.links h3{
+  background-color: white;
+  color: black;
+  border-radius: 55px;
+  padding: 15px;
+}
+
+  .titulo{
+    margin-top: 25px;
+    background-color: blue;
+    border-radius: 55px;
+    display: flex;
+    justify-content: center;
+    gap: 700px;
+  }    
+
+.tabelas{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+.tabela1{
+  background-color: blue;
+  padding: 25px;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}	
+
+
+.indicadores{
+    display: flex;
+  }
+  
+  .indicadores div{
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    padding-top: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 2px;
+      margin-top: 5px;
+    margin-right: 10px;  
+  }
+  
+.p-n{
+    display: flex;
+    justify-content: space-around;
+}
+
+.p-n p{
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  padding-top: 2px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 2px;
+  margin-right: 10px; 
+}
+
+.valores div{
+	display: flex;
+	justify-content: space-between;
+		background-color: white;
+		color: black;
+		border-radius: 30px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+		margin-top: 5px;
+}

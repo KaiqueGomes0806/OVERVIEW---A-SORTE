@@ -1,0 +1,125 @@
+body{
+    background-color: black;
+  }
+  
+  header{
+    margin-top: 2%;
+    background-color: blue;
+	padding: 25px;
+    border-radius: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    color: white;
+}
+
+.HDD{
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    border-radius: 55px;
+}
+  
+.horas{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: black;
+  border-radius: 40px;
+  padding: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.horas h3{
+  color: white;
+}
+
+.horas div{
+  background-color: blue;
+  border-radius: 40px;
+  padding: 8px;
+  color: white;
+}
+
+.data{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  border-radius: 40px;
+  padding: 8px;
+}
+
+.data div{
+  background-color: blue;
+  border-radius: 40px;
+  padding: 8px;
+  color: white;
+  border-radius: 50px;
+}
+
+.data h3{
+  color: white;
+  padding: 2px;
+}
+
+.diasemana{
+  background-color: black;
+  border-radius: 40px;
+  padding: 8px;
+}
+
+.diasemana h3{
+  background-color: blue;
+  border-radius: 40px;
+  padding: 8px;
+  color: white;
+  border-radius: 50px;
+}
+
+.titulo{
+  margin-top: 25px;
+  background-color: blue;
+  border-radius: 55px;
+  display: flex;
+  justify-content: center;
+  gap: 700px;
+}
+
+.tabelas{
+	display: flex;
+	flex-direction: column;
+}
+
+.palpites1{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 35px;
+
+}
+
+.palpites2{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+.bicho{
+	background-color: blue;
+	padding: 15px;
+	border-radius: 35px;
+	margin-bottom: 20px;
+}
